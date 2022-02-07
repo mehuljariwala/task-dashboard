@@ -88,12 +88,12 @@ const Sidebar = (props) => {
             })}
           </List>
         </Box>
-        <div className={classes.accountList}>
+        {/* <div className={classes.accountList}>
           <ListItemButton>
             <ListItemIcon>{<InboxIcon />}</ListItemIcon>
             <ListItemText primary={"Account"} />
           </ListItemButton>
-        </div>
+        </div> */}
       </Box>
     );
   };
