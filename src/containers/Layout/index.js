@@ -30,7 +30,7 @@ const Layout = () => {
         <Sidebar>
           <Main>
             <Routes>
-              <Route path="/" element={<HomePage />} />
+              <Route path="/" element={<Tasks />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/finacials" element={<Financials />} />
               <Route path="/knowledge" element={<Knowledge />} />
